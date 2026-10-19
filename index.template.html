@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io https://*.formspree.io https://api.web3forms.com; form-action 'self' https://formspree.io https://*.formspree.io https://api.web3forms.com mailto:; upgrade-insecure-requests"
+    />
+
+    <title>Alayu Legesse Siyfu — Full-Stack Developer | AI Engineer</title>
+    <meta
+      name="description"
+      content="Alayu Legesse Siyfu — Full-Stack Developer | AI Engineer building AI-powered web applications that transform data into useful answers."
+    />
+    <meta name="author" content="Alayu Legesse Siyfu" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)" />
+    <!--#meta-->
+    <!--/#meta-->
+
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preload" href="assets/fonts/space-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+
+    <script src="js/theme-init.js"></script>
+    <!--#css-->
+    <!--/#css-->
+    <!--#jsonld-->
+    <!--/#jsonld-->
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="wrap header__inner">
+        <a class="brand" href="#home">
+          <span class="brand__mark"><!--#initials--><!--/#initials--></span>
+          <span class="brand__name"><!--#shortName--><!--/#shortName--></span>
+          <span class="sr-only">Alayu Legesse Siyfu — home</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <ul class="nav__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <button
+            class="icon-btn"
+            type="button"
+            id="themeToggle"
+            aria-pressed="false"
+            aria-label="Switch to dark theme"
+          >
+            <svg
+              class="icon icon--moon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+            </svg>
+            <svg
+              class="icon icon--sun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+              />
+            </svg>
+          </button>
+          <!--#cvLink--><!--/#cvLink-->
+          <button
+            class="icon-btn burger"
+            type="button"
+            id="menuToggle"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+            aria-label="Open menu"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M3 6h18M3 12h18M3 18h18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="drawer" id="mobileMenu" hidden>
+      <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Site menu">
+        <nav aria-label="Mobile">
+          <ul class="drawer__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="drawer__foot"><!--#drawerExtras--><!--/#drawerExtras--></div>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="heroTitle">
+        <div class="hero__aurora" aria-hidden="true"></div>
+        <div class="hero__grain" aria-hidden="true"></div>
+
+        <div class="wrap">
+          <p class="eyebrow">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            <span><!--#availability--><!--/#availability--></span>
+          </p>
+
+          <div class="hero__grid">
+            <div class="hero__intro">
+              <h1 class="hero__title" id="heroTitle">
+                <span class="hero__hi"
+                  >Hi, I'm
+                  <!--#name--><!--/#name--></span
+                >
+                <span class="hero__value"><!--#headline--><!--/#headline--></span>
+              </h1>
+              <p class="hero__sub"><!--#subhead--><!--/#subhead--></p>
+
+              <div class="hero__cta">
+                <a class="btn btn--primary" href="#work">View My Projects</a>
+                <a class="btn btn--ghost" href="#contact">Contact Me</a>
+                <a class="btn btn--ghost" href="https://github.com/Alayu-07/" target="_blank" rel="noopener">GitHub Profile</a>
+              </div>
+
+              <ul class="social hero__social" aria-label="Social profiles">
+                <!--#heroSocial--><!--/#heroSocial-->
+              </ul>
+            </div>
+
+            <div class="hero__media">
+              <div class="photo">
+                <span class="photo__halo" aria-hidden="true"></span>
+                <picture>
+                  <source srcset="assets/img/profile-800.avif" type="image/avif" />
+                  <source srcset="assets/img/profile-800.webp" type="image/webp" />
+                  <img
+                    class="photo__img"
+                    src="assets/img/profile-800.jpg"
+                    alt="Portrait of Alayu Legesse Siyfu"
+                    width="800"
+                    height="960"
+                    fetchpriority="high"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+
+          <ul class="proof">
+            <!--#proof--><!--/#proof-->
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="aboutTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">About</p>
+            <h2 id="aboutTitle">How I approach building software</h2>
+          </header>
+
+          <div class="bento">
+            <div class="card bento__story"><!--#aboutStory--><!--/#aboutStory--></div>
+
+            <ul class="bento__stats">
+              <!--#aboutStats--><!--/#aboutStats-->
+            </ul>
+
+            <div class="card bento__focus">
+              <p class="bento__label">Currently focused on</p>
+              <ul class="ticks">
+                <!--#aboutFocus--><!--/#aboutFocus-->
+              </ul>
+            </div>
+
+            <div class="bento__highlights">
+              <p class="bento__label">Background highlights</p>
+              <ul class="ticks">
+                <!--#aboutHighlights--><!--/#aboutHighlights-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt section--tight" id="path" aria-labelledby="pathTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">The path</p>
+            <h2 id="pathTitle">Eighteen years of steady progression</h2>
+          </header>
+          <ol class="path__list" tabindex="0" aria-label="Career progression (scrollable)">
+            <!--#careerPath--><!--/#careerPath-->
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="workTitle">
+        <div class="wrap">
+          <header class="section__head section__head--row">
+            <div>
+              <p class="kicker">Selected work</p>
+              <h2 id="workTitle">Projects I built to learn by doing</h2>
+            </div>
+            <div class="chips" id="projectFilters" role="group" aria-label="Filter projects by type">
+              <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="chip" type="button" data-filter="web" aria-pressed="false">Web</button>
+              <button class="chip" type="button" data-filter="app" aria-pressed="false">Apps</button>
+            </div>
+          </header>
+
+          <p class="sr-only" id="filterStatus" role="status"></p>
+
+          <div class="projects" id="projectGrid"><!--#projects--><!--/#projects--></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="skills" aria-labelledby="skillsTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">Skills</p>
+            <h2 id="skillsTitle">What I work with today</h2>
+            <p>An honest inventory — what I actually use, not a wish list of everything I have read about.</p>
+          </header>
+          <div class="skills"><!--#skills--><!--/#skills--></div>
+        </div>
+      </section>
+
+      <section class="section" id="services" aria-labelledby="servicesTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">What I do</p>
+            <h2 id="servicesTitle">Where I can help</h2>
+          </header>
+          <div class="cards"><!--#services--><!--/#services--></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="approach" aria-labelledby="approachTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">How I work</p>
+            <h2 id="approachTitle">Operating principles from 18 years of teams</h2>
+          </header>
+          <div class="principles"><!--#howIWork--><!--/#howIWork--></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experienceTitle">
+        <div class="wrap">
+          <header class="section__head">
+            <p class="kicker">Experience</p>
+            <h2 id="experienceTitle">Roles that shaped how I build</h2>
+          </header>
+
+          <div class="split">
+            <div>
+              <h3 class="split__title">Professional experience</h3>
+              <ol class="timeline">
+                <!--#experience--><!--/#experience-->
+              </ol>
+            </div>
+            <div>
+              <h3 class="split__title">Education</h3>
+              <ol class="timeline">
+                <!--#education--><!--/#education-->
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--#recommendations--><!--/#recommendations-->
+
+      <section class="section contact" id="contact" aria-labelledby="contactTitle">
+        <div class="contact__cta">
+          <div class="wrap contact__cta-inner">
+            <div>
+              <p class="kicker">Contact</p>
+              <h2 id="contactTitle">Let's build something worth maintaining</h2>
+              <p class="contact__lede">
+                Hiring, collaborating, or just curious about how a production manager became a developer? Send a message
+                — I read everything and reply to real enquiries.
+              </p>
+              <p class="contact__availability"><!--#availabilityLine--><!--/#availabilityLine--></p>
+            </div>
+            <ul class="contact__channels">
+              <!--#contactChannels--><!--/#contactChannels-->
+            </ul>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <form class="form glow" id="contactForm" method="post" novalidate>
+            <!--#formEndpoint--><!--/#formEndpoint-->
+
+            <p class="hp" aria-hidden="true">
+              <label for="company-website">Leave this field empty</label>
+              <input id="company-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+            </p>
+
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" aria-describedby="name-err" />
+              <p class="field__error" id="name-err"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" required autocomplete="email" aria-describedby="email-err" />
+              <p class="field__error" id="email-err"></p>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject <span class="field__opt">(optional)</span></label>
+              <input id="subject" name="subject" type="text" autocomplete="off" />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required rows="5" aria-describedby="message-err"></textarea>
+              <p class="field__error" id="message-err"></p>
+            </div>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit" id="formSubmit">Send message</button>
+              <a class="btn btn--ghost" id="mailtoFallback" href="#contact">Email me directly</a>
+            </div>
+
+            <p class="form__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer__inner">
+        <p class="footer__brand">
+          <span class="brand__mark" aria-hidden="true"><!--#initials--><!--/#initials--></span>
+          <span
+            >© <span id="year">2026</span>
+            <!--#name--><!--/#name-->. All rights reserved.</span
+          >
+        </p>
+        <ul class="social footer__social" aria-label="Social profiles">
+          <!--#footerSocial--><!--/#footerSocial-->
+        </ul>
+        <a class="footer__top" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

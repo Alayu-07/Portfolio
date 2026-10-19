@@ -1,0 +1,22 @@
+{
+  "375-dark": {
+    "violations": [],
+    "passes": 30,
+    "incomplete": 1
+  },
+  "1440-dark": {
+    "violations": [],
+    "passes": 29,
+    "incomplete": 1
+  },
+  "375-light": {
+    "violations": [],
+    "passes": 30,
+    "incomplete": 1
+  },
+  "1440-light": {
+    "violations": [],
+    "passes": 29,
+    "incomplete": 1
+  }
+}

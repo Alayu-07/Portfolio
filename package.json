@@ -1,0 +1,22 @@
+{
+  "name": "alayu-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Personal portfolio of Alayu Legesse Siyfu — full stack developer, Ethiopia.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.js 4173",
+    "build": "node scripts/prerender.js",
+    "images": "node scripts/optimize-images.js",
+    "check": "node scripts/check.js",
+    "format": "prettier --write .",
+    "verify": "node scripts/verify.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "axe-core": "^4.10.0",
+    "prettier": "^3.4.0",
+    "puppeteer-core": "^24.0.0",
+    "sharp": "^0.34.0"
+  }
+}

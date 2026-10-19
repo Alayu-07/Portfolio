@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+assets/fonts/
+assets/img/
+assets/original/
+docs/screenshots/
+docs/*.json
+index.html
+404.html

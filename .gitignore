@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+docs/screenshots/
+docs/lighthouse-*.json
+
+# Private documents you may drop in locally — the CV PDF is intentionally
+# committed when ready, so it is NOT ignored.

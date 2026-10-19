@@ -1,0 +1,236 @@
+{
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "axe": {
+    "375-dark": {
+      "violations": [],
+      "passes": 30,
+      "incomplete": 1
+    },
+    "1440-dark": {
+      "violations": [],
+      "passes": 29,
+      "incomplete": 1
+    },
+    "375-light": {
+      "violations": [],
+      "passes": 30,
+      "incomplete": 1
+    },
+    "1440-light": {
+      "violations": [],
+      "passes": 29,
+      "incomplete": 1
+    }
+  },
+  "screenshots": [
+    "docs/screenshots/320-dark.png",
+    "docs/screenshots/375-dark.png",
+    "docs/screenshots/768-dark.png",
+    "docs/screenshots/1024-dark.png",
+    "docs/screenshots/1366-dark.png",
+    "docs/screenshots/1440-dark.png",
+    "docs/screenshots/320-light.png",
+    "docs/screenshots/375-light.png",
+    "docs/screenshots/768-light.png",
+    "docs/screenshots/1024-light.png",
+    "docs/screenshots/1366-light.png",
+    "docs/screenshots/1440-light.png",
+    "docs/screenshots/1024-nojs.png"
+  ],
+  "noJs": {
+    "visibleCharacters": 6398,
+    "missing": [],
+    "h1": "Hi, I'm Alayu Legesse Siyfu\nFull-Stack Developer | AI Engineer",
+    "cssApplied": "rgb(245, 246, 251)"
+  },
+  "consoleErrors": [],
+  "layout": {
+    "320": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 1,
+        "split": 1,
+        "projects": 1,
+        "skills": 1,
+        "bento": 6
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    },
+    "375": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 1,
+        "split": 1,
+        "projects": 1,
+        "skills": 1,
+        "bento": 6
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    },
+    "768": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 1,
+        "split": 1,
+        "projects": 1,
+        "skills": 2,
+        "bento": 6
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    },
+    "1024": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 2,
+        "split": 2,
+        "projects": 2,
+        "skills": 2,
+        "bento": 12
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    },
+    "1366": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 2,
+        "split": 2,
+        "projects": 2,
+        "skills": 4,
+        "bento": 12
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    },
+    "1440": {
+      "overflowPx": 0,
+      "columns": {
+        "hero": 2,
+        "split": 2,
+        "projects": 2,
+        "skills": 4,
+        "bento": 12
+      },
+      "fonts": {
+        "inter": true,
+        "spaceGrotesk": true
+      },
+      "photos": {
+        "hero": 800,
+        "projectCovers": 3
+      },
+      "counts": {
+        "sections": 9,
+        "projects": 3,
+        "skills": 5,
+        "services": 4,
+        "principles": 4,
+        "experience": 5,
+        "education": 4,
+        "path": 6
+      },
+      "text": {
+        "h1": "Hi, I'm Alayu Legesse Siyfu Full-Stack Developer | AI Engine"
+      }
+    }
+  },
+  "layoutFailures": []
+}
