@@ -11,11 +11,10 @@ export const PORTFOLIO = {
   /* ── Identity ──────────────────────────────────────────────────────────── */
   name: "Alayu Legesse Siyfu",
   initials: "AL",
-  title: "Full-Stack Developer | AI Engineer",
+  title: "Full-Stack Developer | AI Powered Platform Developer",
 
-  headline: "Full-Stack Developer | AI Engineer",
-  subhead:
-    "Building AI-powered web applications that transform data into useful answers.",
+  headline: "Full-Stack Developer | AI Powered Platform Developer",
+  subhead: "Building AI-powered web applications that transform data into useful answers.",
 
   location: "Debre Berhan, Ethiopia",
   timezone: "EAT (UTC+3)",
@@ -153,7 +152,11 @@ export const PORTFOLIO = {
     },
     {
       group: "AI & ML",
-      items: ["Google Gemini API (@google/genai)", "Retrieval-Augmented Generation (RAG)", "Prompt & system-prompt design"],
+      items: [
+        "Google Gemini API (@google/genai)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Prompt & system-prompt design",
+      ],
     },
     {
       group: "Tools",
@@ -289,9 +292,29 @@ export const PORTFOLIO = {
         "A community Q&A platform with an AI assistant that helps users ask better questions and receive relevant, context-aware answers using a curated knowledge base.",
       problem:
         "Community Q&A platforms often leave questions unanswered or buried without helpful guidance.",
-      built: "Full-stack forum with authentication, question/answer flows, and RAG-powered AI responses.",
+      built:
+        "Full-stack forum with authentication, question/answer flows, and RAG-powered AI responses.",
       role: "Full-stack developer",
-      stack: ["React 19", "Vite", "React Router v7", "axios", "framer-motion", "lucide-react", "react-markdown", "Node.js", "Express 5", "MySQL", "mysql2", "@google/genai (Gemini)", "JWT", "bcryptjs", "multer", "express-validator", "Vitest", "Testing Library"],
+      stack: [
+        "React 19",
+        "Vite",
+        "React Router v7",
+        "axios",
+        "framer-motion",
+        "lucide-react",
+        "react-markdown",
+        "Node.js",
+        "Express 5",
+        "MySQL",
+        "mysql2",
+        "@google/genai (Gemini)",
+        "JWT",
+        "bcryptjs",
+        "multer",
+        "express-validator",
+        "Vitest",
+        "Testing Library",
+      ],
       tags: ["Community", "Q&A", "AI", "RAG", "Full-stack"],
       features: [
         "User authentication and protected routes",
@@ -300,7 +323,8 @@ export const PORTFOLIO = {
         "Admin dashboard for managing users, questions, answers, and documents",
         "File/document upload for RAG knowledge base",
       ],
-      learnings: "Learned to integrate RAG with LLMs, build role-based access control, and test a full-stack React + Express app.",
+      learnings:
+        "Learned to integrate RAG with LLMs, build role-based access control, and test a full-stack React + Express app.",
       live: "https://evangadiforum.tsedetech.com/",
       repo: "https://github.com/Alayu-07/FullEvangadi-Forum",
       image: "assets/img/projects/evangadi.webp", // live screenshot (16:10)
@@ -312,9 +336,25 @@ export const PORTFOLIO = {
         "A full-stack conversational AI application with a clean chat interface powered by Google's Gemini API, featuring persistent user conversations and message history.",
       problem:
         "Working with AI APIs needs a polished, intuitive interface with proper backend handling and conversation management.",
-      built: "Full-stack chat app with React frontend and Express backend integrating Gemini API with conversation persistence.",
+      built:
+        "Full-stack chat app with React frontend and Express backend integrating Gemini API with conversation persistence.",
       role: "Full-stack developer",
-      stack: ["React 19", "Vite", "axios", "react-markdown", "react-syntax-highlighter", "lucide-react", "CSS Modules", "Node.js", "Express 5", "MySQL", "mysql2", "@google/genai (Gemini)", "dotenv", "cors"],
+      stack: [
+        "React 19",
+        "Vite",
+        "axios",
+        "react-markdown",
+        "react-syntax-highlighter",
+        "lucide-react",
+        "CSS Modules",
+        "Node.js",
+        "Express 5",
+        "MySQL",
+        "mysql2",
+        "@google/genai (Gemini)",
+        "dotenv",
+        "cors",
+      ],
       tags: ["AI", "Chat", "Web app", "Full-stack", "Gemini"],
       features: [
         "Real-time chat interface with AI responses via Gemini API",
@@ -322,7 +362,8 @@ export const PORTFOLIO = {
         "Responsive, clean UI with markdown and code syntax highlighting",
         "Backend API for chat processing and data persistence",
       ],
-      learnings: "Gained experience integrating LLM APIs, handling streaming-style responses, and building a production-ready chat backend with database persistence.",
+      learnings:
+        "Gained experience integrating LLM APIs, handling streaming-style responses, and building a production-ready chat backend with database persistence.",
       live: "https://clonegpt.tsedetech.com/",
       repo: "https://github.com/Alayu-07/Full-ChatGPT-Clone",
       image: "assets/img/projects/chatgpt-clone.webp", // live screenshot (16:10)
@@ -334,9 +375,19 @@ export const PORTFOLIO = {
         "A Netflix-inspired streaming UI built with React, featuring movie browsing, carousels, and responsive layouts for an immersive viewing experience.",
       problem:
         "Media catalogues are hard to browse on small screens without a strong visual hierarchy.",
-      built: "Modern React frontend with TMDB API integration, sleek carousels, and mobile-first responsive design.",
+      built:
+        "Modern React frontend with TMDB API integration, sleek carousels, and mobile-first responsive design.",
       role: "Frontend developer",
-      stack: ["React 19", "Vite", "React Router v7", "axios", "Swiper", "lucide-react", "react-icons", "CSS Modules"],
+      stack: [
+        "React 19",
+        "Vite",
+        "React Router v7",
+        "axios",
+        "Swiper",
+        "lucide-react",
+        "react-icons",
+        "CSS Modules",
+      ],
       tags: ["Entertainment", "Responsive UI", "Web app", "Movies"],
       features: [
         "Hero banner with dynamic movie content",
@@ -345,7 +396,8 @@ export const PORTFOLIO = {
         "Movie data fetched from TMDB API",
         "Modern Netflix-inspired UI/UX",
       ],
-      learnings: "Learned to build complex UI components like carousels, work with third-party APIs, and create polished, responsive user interfaces.",
+      learnings:
+        "Learned to build complex UI components like carousels, work with third-party APIs, and create polished, responsive user interfaces.",
       live: "https://netclone.tsedetech.com/",
       repo: "https://github.com/Alayu-07/Netflix-2026",
       image: "assets/img/projects/netflix.webp", // live screenshot (16:10)
