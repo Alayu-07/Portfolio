@@ -11,9 +11,9 @@ export const PORTFOLIO = {
   /* ── Identity ──────────────────────────────────────────────────────────── */
   name: "Alayu Legesse Siyfu",
   initials: "AL",
-  title: "Full-Stack Developer | AI Powered Platform Developer",
+  title: "Full-Stack Developer | AI Powered Developer",
 
-  headline: "Full-Stack Developer | AI Powered Platform Developer",
+  headline: "Full-Stack Developer | AI Powered Developer",
   subhead: "Building AI-powered web applications that transform data into useful answers.",
 
   location: "Debre Berhan, Ethiopia",
@@ -81,6 +81,8 @@ export const PORTFOLIO = {
       "Head of Quality Control, Safety & Security — MDF manufacturing",
       "Production management across distillery and packaging lines",
       "Programming & data analysis coursework, Udacity Ethiopia",
+      "Full-stack development with React, Node.js, Express, and MySQL",
+      "AI-powered features with Google's Gemini API and RAG, Evangadi Tech,"
     ],
   },
 
